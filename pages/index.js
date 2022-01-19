@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Center from "../Components/Center";
 import Sidebar from "../Components/Sidebar";
 
 export default function Home() {
@@ -7,9 +8,9 @@ export default function Home() {
       <Head>
         <title>Spotify 2.0</title>
       </Head>
-      <main>
+      <main className="flex">
         <Sidebar />
-        {/* Center */}
+        <Center />
       </main>
       <div>{/* player */}</div>
     </div>
